@@ -1,0 +1,74 @@
+tb_post
+- id
+- judul
+- isi
+- gambar
+- kategori
+- id_bidang
+- id_user
+- level
+- status
+- headline
+- notify
+- views
+
+tb_settingan
+- id
+- tipe
+- title
+- content_setting
+
+tb_menu
+- id
+- id_parent
+- menu
+- url
+- content
+- posisi
+
+tb_bidang
+- id
+- bidang
+- kapala
+
+tb_gallery
+- id
+- judul
+- gambar
+- id_bidang
+- id_post
+- slider
+
+tb_file
+- id
+- judul
+- file
+- id_user
+- id_bidang
+- status
+
+
+tb_link_terkait
+- id
+- judul
+- link
+
+tb_header
+- id
+- gambar
+- status
+
+tb_user
+- id
+- nama
+- email
+- username
+- password
+- level
+- id_bidang
+
+tb_counter
+- id
+- ip_address
+- tanggal
+
